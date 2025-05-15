@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '1.0'
-group = 'com.yourserver.itemraritygui'
+group = 'com.shuguang.itemraritygui'
 
 base {
     archivesName = 'itemraritygui'

@@ -1,4 +1,4 @@
-package com.yourserver.itemraritygui;
+package com.shuguang.itemraritygui;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;

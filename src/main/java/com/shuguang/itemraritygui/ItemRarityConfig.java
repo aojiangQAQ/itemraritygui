@@ -1,4 +1,4 @@
-package com.yourserver.itemraritygui;
+package com.shuguang.itemraritygui;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 
