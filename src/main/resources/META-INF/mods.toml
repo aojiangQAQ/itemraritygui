@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All rights reserved"
+issueTrackerURL = "https://shuguang.space"
+displayURL = "https://shuguang.space"
+
+[[mods]]
+modId = "itemraritygui"
+version = "1.0"
+displayName = "物品稀有度背景显示"
+displayURL = "https://shuguang.space"
+logoFile = "team.png"  # 128x128px logo图片，放置在 resources 目录中
+authors = "曙光团队"
+description = '''
+由曙光征途服务器曙光团队开发制作的MOD。
+为物品栏及背包中的物品添加美观的稀有度背景颜色。
+'''
+
+[[dependencies.itemraritygui]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.itemraritygui]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "CLIENT"
