@@ -23,3 +23,14 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# Local configuration and runtime data
+.vscode/
+.env
+.env.*
+!.env.example
+logs/
+crash-reports/
+*.log
+hs_err_pid*
+replay_pid*

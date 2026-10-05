@@ -134,7 +134,7 @@ public class ItemRarityGUI {
                 Minecraft mc = Minecraft.getInstance();
                 if (mc.player != null) {
                     mc.player.sendSystemMessage(
-                            net.minecraft.network.chat.Component.literal("§6[曙光征途] §a物品稀有度背景MOD由 §b曙光团队 §a荣誉出品！")
+                            net.minecraft.network.chat.Component.literal("§6[曙光征途] §a物品稀有度背景MOD由 §baojiangQAQ（鳌江）与曙光团队 §a制作。")
                     );
                     messageShown = true;
                     MinecraftForge.EVENT_BUS.unregister(this);
